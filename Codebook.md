@@ -7,36 +7,37 @@ This code book summarizes the resulting data fields in tidy.txt.
 1. subjectId - ID of the subject
 2. activityId - ID of the activity
 3. activityType - one of the 6 activities below
-	i. WALKING
-	ii. WALKING_UPSTAIRS
-	iii. WALKING_DOWNSTAIRS
-	iv. SITTING
-	v. STANDING
-
-	vi. LAYING
+	1. WALKING
+	2. WALKING_UPSTAIRS
+	3. WALKING_DOWNSTAIRS
+	4. SITTING
+	5. STANDING
+	6. LAYING
 
 
 ## Measurements
-The 17 raw accelerometer and gyroscope 3-axial xyz signals are
-1? tBodyAcc-XYZ
-2? tGravityAcc-XYZ
-3? tBodyAccJerk-XYZ
-4? tBodyGyro-XYZ
-5? tBodyGyroJerk-XYZ
-6? tBodyAccMag
-7? tGravityAccMag
-8? tBodyAccJerkMag
-9? tBodyGyroMag
-10? tBodyGyroJerkMag
-11? fBodyAcc-XYZ
-12? fBodyAccJerk-XYZ
-13? fBodyGyro-XYZ
-14? fBodyAccMag
-15? fBodyAccJerkMag
-16? fBodyGyroMag
-17? fBodyGyroJerkMag
+The 17 raw accelerometer and gyroscope 3-axial xyz signals are:
+
+1. tBodyAcc-XYZ
+2. tGravityAcc-XYZ
+3. tBodyAccJerk-XYZ
+4. tBodyGyro-XYZ
+5. tBodyGyroJerk-XYZ
+6. tBodyAccMag
+7. tGravityAccMag
+8. tBodyAccJerkMag
+9. tBodyGyroMag
+10. tBodyGyroJerkMag
+11. fBodyAcc-XYZ
+12. fBodyAccJerk-XYZ
+13. fBodyGyro-XYZ
+14. fBodyAccMag
+15. fBodyAccJerkMag
+16. fBodyGyroMag
+17. fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are
+
 1. mean(): Mean value
 2. std(): Standard deviation
 3. mad(): Median absolute deviation 
@@ -56,6 +57,7 @@ The set of variables that were estimated from these signals are
 17. angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
 18. gravityMean
 19. tBodyAccMean
 20. tBodyAccJerkMean
@@ -65,6 +67,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ## run_analysis.R measurements
 We are interested only in measurements on mean() and std(). The 66 variables meeting these criteria are
+
 1. fBodyAccJerk-mean()-X
 2. fBodyAccJerk-mean()-Y
 3. fBodyAccJerk-mean()-Z

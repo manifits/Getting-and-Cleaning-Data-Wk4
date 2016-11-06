@@ -1,5 +1,3 @@
-setwd("C:\\Users\\yeoch\\OneDrive - Hewlett-Packard\\Course2\\Data Science\\John Hopkins Data Science\\03 Getting and Cleaning Data\\Week 4")
-
 library(plyr)
 library(reshape2)
 

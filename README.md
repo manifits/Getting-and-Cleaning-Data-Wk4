@@ -21,7 +21,9 @@ The run_analysis.R script does the following
 
 8. Convert the activity and subjectID columns into factor variables.
 
-9. Create a tidy dataset ("tidy.txt) with the average of each variable for each subject-activity pair.
+9. Melt the combined data by subjectID, ActivityID adn ActivityLabel.
+
+10. Create a tidy dataset ("tidy.txt) with the average of each variable for each subject-activity pair using dcast.
 
 
 
